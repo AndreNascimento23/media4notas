@@ -27,12 +27,7 @@ if (nTodas)
     {
         resultado = "Reprovado";
     }
-
-    
-
-else
-
-     if (media > 6)
+    else if (media > 6)
     {
         resultado = "Aprovado";
     }
@@ -51,5 +46,3 @@ else
 
 
 Console.WriteLine("\nObrigado !!");
-
-   
